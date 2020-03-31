@@ -1,6 +1,15 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
+/*---Base---*/
+@import 'vars.scss';
 @import 'normalize.scss';
 @import 'base.scss';
+/*---Components---*/
+@import './components/header.scss';
+@import './components/container.scss';
+@import './components/hero.scss';
+@import './components/features.scss';
+@import './components/section-product.scss';
+@import './components/section-news.scss';
+@import './components/footer.scss';
